@@ -8,15 +8,26 @@
 <body>
     <div class="container">
         <div class="wrapper-nav">
-            <form action="#" class="search">
+            <form action="#" class="search" id="search-friends">
                 <input type="text" class="search__input" placeholder="Поиск" maxlength="25">
                 <button class="search__button">&#128269;</button>
             </form>
             <div class="nav">
               <ul class="items"></ul>
+              <template id="getFriends">
+                <li class="items__item">
+                    <figure class="items__image">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/156381/profile/profile-80.jpg">
+                    </figure> 
+                    <div class="items__wrapper">
+                        <h2 class="items__wrapper-name">Marat Zhurm</h2>
+                        <p class="items__wrapper-status">online</p>
+                    </div>
+                </li>
+              </template>
             </div>
         </div>
-        <div class="wrapper-messages">              
+        <div class="wrapper-messages">
             <div class="chat-title">
                 <!-- Title -->
                 <h1>Title</h1>

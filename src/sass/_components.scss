@@ -90,10 +90,11 @@ nav
     vertical-align: middle;
     background: rgba(0, 0, 0, 0.2);
     padding-top: 1px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
 
   &__item:hover {
-    // cursor: pointer;
+    cursor: pointer;
   }
 
   &__image {
